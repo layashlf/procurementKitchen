@@ -1,0 +1,39 @@
+.tabBox {
+  width: "60%";
+  margin-right: "auto";
+  margin-left: "auto";
+  margin-top: "5px";
+  margin-bottom: "10px";
+  border: "1px solid red";
+}
+
+.tabHeader {
+  width: "60%";
+  margin-right: "auto";
+  margin-left: "auto";
+  margin-top: "5px";
+  margin-bottom: "10px";
+  border: "1px solid green";
+}
+.select_picker {
+  margin: 5px 0 5px auto !important;
+  border-radius: 5px !important;
+  border: 1px solid #1976d2 !important;
+  text-transform: none !important;
+  padding: 0.5em !important;
+  color: #1976d2 !important;
+}
+
+.tab_menu {
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #f2f2f2;
+}
+.tab_header_style {
+  text-align: start;
+  background-color: white;
+  max-width: 1280px;
+  margin: 0 auto;
+}

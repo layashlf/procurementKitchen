@@ -1,0 +1,80 @@
+@page {
+  size: A4;
+  margin: 10mm 16mm 27mm 16mm;
+}
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+  .page_wrapper {
+    /* margin: 10mm 16mm 27mm 16mm; */
+  }
+
+  .page_header {
+    display: flex;
+    flex-direction: row;
+    max-height: 48px;
+  }
+
+  .header_image {
+    margin: 8px 0px 0px 0px;
+    justify-content: start;
+    height: 100px;
+  }
+
+  .image {
+    height: 50%;
+    width: 100%;
+  }
+
+  .address_text {
+    line-height: 2px;
+    margin: 20px 8px;
+    font-size: 15px;
+  }
+  .page_title {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2;
+  }
+  .table_header {
+    font-weight: bold;
+    border: 1px solid rgba(224, 224, 224, 1);
+    font-size: 5px;
+  }
+  .table_header_small {
+    font-weight: bold;
+    border: 1px solid rgba(224, 224, 224, 1);
+    font-size: 5;
+    line-height: 16px;
+    padding: 4px;
+  }
+  .table_row_border {
+    border: 1px solid rgba(224, 224, 224, 1);
+  }
+
+  .delivery {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    break-inside: avoid;
+  }
+  .footer {
+    display: flex;
+    margin-top: 1;
+    justify-content: space-around;
+    break-inside: avoid;
+    margin-top: 20px;
+  }
+  .footer .direction {
+    flex-direction: column;
+  }
+  .MuiTableCell-root {
+    padding: 8px !important;
+  }
+}

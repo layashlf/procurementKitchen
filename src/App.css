@@ -1,0 +1,134 @@
+.header_wrapper {
+  width: 100%;
+  margin-top: -15px;
+}
+
+.header_base {
+  align-items: center;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid #f2f2f2;
+  height: 60px;
+}
+.header_base .menu {
+  max-width: 1280px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  display: flex;
+}
+.header_base .menu .image {
+  height: 30px;
+  cursor: pointer;
+}
+.App-header {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.welcome_text {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+  margin-top: 12px;
+}
+.login-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.login-wrapper .login {
+  width: 0;
+  min-width: 300px;
+  background-color: #f4f7f9;
+  color: #000000;
+  align-items: center;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.login__logo {
+  width: 300px;
+}
+.login__body {
+  margin-top: 40px;
+}
+
+.login-wrapper .login__button {
+  color: #000000;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 14px 26px;
+  max-width: 275px;
+  margin-top: 24px;
+  font-weight: 600;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px rgb(204 197 197 / 25%);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.login-wrapper .login p {
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 323px;
+}
+.login-wrapper .login__button img {
+  width: 32px;
+  height: 33px;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.mr-5x,
+.mx-5x {
+  margin-right: 1.25rem !important;
+}
+.login-wrapper .login__other-action {
+  font-size: 14px;
+  line-height: 17px;
+  color: #737373;
+  margin-top: 40px;
+}
+
+.MuiTableRow-root:hover {
+  background: #f0f0f0;
+}
